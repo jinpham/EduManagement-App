@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ThemSinhVienActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ThemLopActivity"
+            android:exported="true" />
+        <activity
             android:name=".loginandregisteractivity.RegisterActivity"
             android:exported="true" />
         <activity

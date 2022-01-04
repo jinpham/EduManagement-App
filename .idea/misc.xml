@@ -3,24 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/drawable/backdound_app.xml" value="0.1" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/drawable/backdround_item.xml" value="0.1" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/drawable/backdround_layout.xml" value="0.1" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/drawable/backdroung_edt.xml" value="0.1" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/drawable/bg_ui.xml" value="0.1" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/drawable/circle.xml" value="0.1" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/drawable/circletransparant.xml" value="0.1" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/drawable/edit.xml" value="0.1" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/drawable/ic_add.xml" value="0.1" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/drawable/ic_delete_black_24dp.xml" value="0.1" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/drawable/ic_home.xml" value="0.1" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/activity_change_password.xml" value="0.1" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/activity_login.xml" value="0.209375" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/activity_main.xml" value="0.18931159420289856" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/activity_register.xml" value="0.1953125" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/custom_toolbar.xml" value="0.1" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/custom_toolbar_danhsachsinhvien.xml" value="0.18931159420289856" />
-        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/dong_sinhvien.xml" value="0.18931159420289856" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/activity_them_lop.xml" value="0.1609375" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/activity_them_sinh_vien.xml" value="0.11820652173913043" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/customtoolbarthemlop.xml" value="0.1038500506585613" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/customtoolbarthemsv.xml" value="0.1038500506585613" />
       </map>
     </option>
   </component>
