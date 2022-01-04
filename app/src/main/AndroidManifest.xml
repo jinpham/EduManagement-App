@@ -28,6 +28,9 @@
             android:name=".loginandregisteractivity.LoginActivity"
             android:exported="true" />
         <activity
+            android:name=".introActivity.IntroOneActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

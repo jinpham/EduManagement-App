@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".introActivity.IntroOneActivity">
+
+
+    <ImageView
+        android:id="@+id/bgapp"
+        android:src="@drawable/bgintro_app"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/rl1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/iconapp"/>
+
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/logo"
+            android:layout_marginLeft="1dp"
+            android:gravity="start"
+            android:text="Student MGA"
+            android:textAlignment="textStart"
+            android:textColor="@color/blue"
+            android:textSize="50sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
