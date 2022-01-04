@@ -104,7 +104,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, LoginActivity.class));
-
             }
         });
         fbHome.setOnClickListener(new View.OnClickListener() {
@@ -118,8 +117,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (!isOpen) {
                     openMenu();
-
-
                 } else {
                     closeMenu();
                 }
@@ -127,5 +124,31 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void openMenu() {
+        isOpen = true;
+        fbHome.animate().translationY(-getResources().getDimension(R.dimen.stan_60));
+        fbadd.animate().translationY(-getResources().getDimension(R.dimen.stan_105));
+        fabDangXuat.animate().translationY(-getResources().getDimension(R.dimen.stan_155));
+    }
 
+    private void closeMenu() {
+        isOpen = false;
+        fbHome.animate().translationY(0);
+        fbadd.animate().translationY(0);
+        fabDangXuat.animate().translationY(0);
+    }
+
+    @Override
+    protected void onResume() {
+
+        if (DanhSachLopActivity.xetList == true) {
+            ds = DanhSachLopActivity.svlistDuocLoc;
+        } else {
+            ds.clear();
+            ds.addAll(sinhVienDao.getALL());
+        }
+
+        sinhVienAdapter.notifyDataSetChanged();
+        super.onResume();
+    }
 }
