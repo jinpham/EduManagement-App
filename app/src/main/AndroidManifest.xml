@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.midterm.educationmanagement">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/iconapp"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.EducationManagement">
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ThemSinhVienActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ThemLopActivity"
+            android:exported="true" />
+        <activity
+            android:name=".loginandregisteractivity.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".loginandregisteractivity.ChangePasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".loginandregisteractivity.LoginActivity"
+            android:exported="true" />
         <activity
             android:name=".introActivity.IntroOneActivity"
             android:exported="true" />
