@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">EducationManagement</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="review_detail">-Student management application based on basic android assignment of Student management application helps to manage:Student information: Full name, email, student code, class code, class information such as: classname codes And many other useful functions.</string>
+    <string name="dang_nhap">- Login</string>
+    <string name="dang_nhap_detail">+Register, login, change password, save student information</string>
+    <string name="quan_li_lop_hoc">-Classroom management</string>
+    <string name="xem_danh_sach">+ View class list on listview</string>
+    <string name="them_sua_soa_lop">+ Add, edit, delete layers</string>
+    <string name="tim_lop_hoc">+ Class search by class name</string>
+    <string name="chon_lop_hoc">+ Select a class to see the list of students of that class</string>
+    <string name="quan_ly_sv">-Student Management</string>
+    <string name="xem_danh_sach_sv">+ View list of students on listview</string>
+    <string name="them_sua_xoa_sv">+ Add, edit, delete students</string>
+    <string name="tim_kiem_sv">+ Search students by student name</string>
+    <string name="lay_anh">+ Take photos in the folder as student avatars</string>
+    <string name="student_id">Student ID :</string>
+    <string name="name">Name :</string>
+    <string name="class_id">Class ID :</string>
+    <string name="danh_sach_sv">Student List</string>
+    <string name="sua_sv">EDIT STUDENT</string>
+    <string name="xem_anh">View Image</string>
+    <string name="nhap_ma_sv">Enter Student ID</string>
+    <string name="nhap_ten_sv">Enter Student Name</string>
+    <string name="nhap_email">Enter email</string>
+    <string name="nhap_ten_hinh">Enter image name</string>
+    <string name="sua">Edit</string>
+    <string name="huy">Cancel</string>
 </resources>
