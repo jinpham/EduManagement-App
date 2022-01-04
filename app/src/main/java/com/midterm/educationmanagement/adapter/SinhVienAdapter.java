@@ -57,7 +57,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 public class SinhVienAdapter extends BaseAdapter implements Filterable {
     Context context;
 
-    ArrayList<SinhVien>  ds=new ArrayList<>();;
+    ArrayList<SinhVien>  ds= new ArrayList<>();
     ArrayList<SinhVien> dsSortSinhVien;
     private Filter svFilter;
     LopDao lopDao;
