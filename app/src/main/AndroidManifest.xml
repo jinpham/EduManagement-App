@@ -9,36 +9,31 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/iconapp"
-        android:label="@string/app_name"
+        android:label="EducationManagement"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity
-            android:name=".ThemSinhVienActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ThemLopActivity"
-            android:exported="true" />
-        <activity
-            android:name=".loginandregisteractivity.RegisterActivity"
-            android:exported="true" />
-        <activity
-            android:name=".loginandregisteractivity.ChangePasswordActivity"
-            android:exported="true" />
-        <activity
-            android:name=".loginandregisteractivity.LoginActivity"
-            android:exported="true" />
-        <activity
-            android:name=".introActivity.IntroOneActivity"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+        android:theme="@style/Theme.AppCompat"
+        >
+        <activity android:name=".InFoAppActivity"
+            ></activity>
+        <activity android:name=".loginandregisteractivity.LoginActivity" />
+        <activity android:name=".loginandregisteractivity.ChangePasswordActivity" />
+        <activity android:name=".loginandregisteractivity.RegisterActivity" />
+        <activity android:name=".introActivity.IntroOneActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ThemLopActivity" />
+        <activity android:name=".DanhSachLopActivity" />
+        <activity android:name=".ManagerActivity" />
+        <activity android:name=".ThemSinhVienActivity" />
+        <activity android:name=".MainActivity" />
+        <!--        <activity-->
+        <!--            android:name="com.c"-->
+        <!--            android:theme="@style/AppTheme"-->
+        <!--            tools:ignore="MissingClass" />-->
     </application>
 
 </manifest>
