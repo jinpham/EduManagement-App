@@ -119,7 +119,6 @@ public class DanhSachLopActivity extends AppCompatActivity {
         edtSearch.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                //Search or Filter
 
             }
 
@@ -127,10 +126,8 @@ public class DanhSachLopActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if (count < before) {
                     lopAdapter.resetData();
-
                 } else {
                     lopAdapter.getFilter().filter(s);
-
                 }
             }
 

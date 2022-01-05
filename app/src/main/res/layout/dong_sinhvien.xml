@@ -68,6 +68,7 @@
                         android:id="@+id/tvtensv"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="#000000"
                         android:text="Tên sinh viên"
                         android:textSize="16dp" />
 
@@ -87,6 +88,7 @@
                         android:id="@+id/tvemail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="#000000"
                         android:text="Email"
                         android:textSize="16dp" />
 
@@ -106,6 +108,7 @@
                         android:id="@+id/tvmalop"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:textColor="#000000"
                         android:text="Mã lớp"
                         android:textSize="16dp" />
                 </TableRow>
