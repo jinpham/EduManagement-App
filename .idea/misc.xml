@@ -3,6 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/activity_change_password.xml" value="0.1" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/activity_danh_sach_lop.xml" value="0.121875" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/activity_info_app.xml" value="0.16259057971014493" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/activity_login.xml" value="0.1634963768115942" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/activity_manager.xml" value="0.121875" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/custom_toolbar_danhsachsinhvien.xml" value="0.209375" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/custom_toolbardahsachlop.xml" value="0.209375" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/custom_toolbarinfoapp.xml" value="0.209375" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/dong_lop.xml" value="0.1038500506585613" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/dong_sinhvien.xml" value="0.1" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/edit_lop.xml" value="0.12907608695652173" />
+        <entry key="..\:/CODING/EduManagement-App/app/src/main/res/layout/sua_sinhvien.xml" value="0.1" />
         <entry key="..\:/Nam5-ki1/LapTrinhDiDong/EducationManagement/app/src/main/res/drawable-v24/background_dialog.xml" value="0.23385416666666667" />
         <entry key="..\:/Nam5-ki1/LapTrinhDiDong/EducationManagement/app/src/main/res/layout/activity_danh_sach_lop.xml" value="0.16077898550724637" />
         <entry key="..\:/Nam5-ki1/LapTrinhDiDong/EducationManagement/app/src/main/res/layout/activity_info_app.xml" value="0.171875" />
